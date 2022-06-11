@@ -5,9 +5,46 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+    background:  rgb(255, 255, 255) !important;
+}
+  h1,h2 {text-align: center;}
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+ button {
+  margin-left: 10px ;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input{
+  width: 300px;
+}
+
+.title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px ;
+  color:rgb(10, 12, 106);
+  font-weight: bold;
+  text-shadow: 1px 2px 1px rgb(6, 27, 52);
+  cursor: pointer;
+}
+
+.container{
+padding-top: 100px; 
+}
+.mainPage{
+  display: flex;
+  justify-content: center;
+
+}
+button {
+  margin-right: 10px !important;
+}
+
+.success {
+  min-height: 100vh ;
+  background: rgb(214, 250, 214);
 }
